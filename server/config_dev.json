@@ -3,7 +3,7 @@
   "server_port" : 3000,
   "db_dir" : "~/honway/db",
   "job_dir" : "~/honway/jobs",
-  "job_output_dir" : "../webclient/vue/dist",
+  "job_output_dir" : "~/honway/webdocuments",
   "job_secret" : "2NfMUeZ9q2yuyxVzcXQxBynARSMxFJj5et3wFC89dJLzEu8SBfM5fKgkHfQU3ep9vmmgZS4vKtYnj9AJ7x6R3L22PndcSNEg",
   "job_workers": {
     "invoice" : "xlsx"

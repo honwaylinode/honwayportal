@@ -2,3 +2,4 @@ webclient/node_modules
 *.log
 server/jobs/*
 server/db/*
+deploy.sh

@@ -1,0 +1,26 @@
+[alias]
+	co=checkout
+	ci=commit
+    diff=difftool
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[user]
+	name = honwaylinode
+	email = honwaylinode@gmail.com 
+
+#[merge]
+    #tool = p4merge 
+    #keepBackup = false
+#[mergetool "p4merge"]
+    #cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge "\"$PWD/$BASE\"" "\"$PWD/$REMOTE\"" "\"$PWD/$LOCAL\"" "\"$PWD/$MERGED\""
+    #keepTemporaries = false
+    #trustExitCode = false
+    #keepBackup = false 
+#[mergetool "diffmerge"]
+    #cmd = /Applications/DiffMerge.app/Contents/Resources/diffmerge.sh "\"$PWD/$BASE\"" "\"$PWD/$REMOTE\"" "\"$PWD/$LOCAL\"" "\"$PWD/$MERGED\""
+    #keepTemporaries = false
+    #trustExitCode = false
+    #keepBackup = false 
+#[diff]
+    #external = /Applications/DiffMerge.app/Contents/Resources/diffmerge.sh 
+[diff]
+    external = ~/bin/git_diff_wrapper.sh

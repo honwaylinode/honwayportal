@@ -1,3 +1,10 @@
+<style>
+div#main-content
+{
+    background: lightYellow;
+}
+</style>
+
 <template>
   <div id="main-content">
     <LoginForm v-if="!isLoggedIn()"></LoginForm>

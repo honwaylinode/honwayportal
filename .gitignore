@@ -2,4 +2,6 @@ webclient/node_modules
 *.log
 server/jobs/*
 server/db/*
+config_dev.json
 deploy.sh
+config.json

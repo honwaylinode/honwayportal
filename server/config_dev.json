@@ -1,9 +1,9 @@
 {
   "app_secret" : "0&kfs8uT01%8qOeF0$DoA@Ml&K@H6FySWAP&G*R!U!iqW@PV*mn2!!HUHDx40&yY9^30O%t0J!hRqXr2!3q9xlgP373A43dN",
   "server_port" : 3000,
-  "db_dir" : "~/honway/db",
-  "job_dir" : "~/honway/jobs",
-  "job_output_dir" : "~/honway/webdocuments",
+  "db_dir" : "./db",
+  "job_dir" : "./jobs",
+  "job_output_dir" : "../webclient/dist",
   "job_secret" : "2NfMUeZ9q2yuyxVzcXQxBynARSMxFJj5et3wFC89dJLzEu8SBfM5fKgkHfQU3ep9vmmgZS4vKtYnj9AJ7x6R3L22PndcSNEg",
   "job_workers": {
     "invoice" : "xlsx"

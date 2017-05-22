@@ -16,7 +16,8 @@
     "koa": "^2.1.0",
     "koa-bodyparser": "^4.1.0",
     "koa-route": "^3.2.0",
-    "koa-websocket": "^3.0.1"
+    "koa-websocket": "^3.0.1",
+    "lockfile": "^1.0.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
